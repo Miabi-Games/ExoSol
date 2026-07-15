@@ -141,8 +141,12 @@ Follow `.editorconfig` and conventions already present in nearby files.
 - Do not claim a build, test, or runtime check passed unless it was actually run
   successfully.
 
-Update this section with concrete build, test, formatting, and run commands
-once the toolchain has been selected.
+Run commands from the repository root:
+
+- Build: `dotnet build src/ExoSol.sln`
+- Test: `dotnet test src/ExoSol.sln` (no test projects exist yet)
+- Format: `dotnet format src/ExoSol.sln`
+- Run: `dotnet run --project src/ExoSol/ExoSol.csproj`
 
 ## Working Practices
 

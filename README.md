@@ -87,8 +87,17 @@ Automated tests will use NUnit, with Moq available when mocking is appropriate.
 Both are test-only dependencies and will not be used by production assemblies.
 C++ may be introduced only if it becomes necessary for native integration.
 
-The build process and detailed project structure will be documented as they
-are established.
+The initial console project targets .NET 10. Its solution is stored in `src`,
+with the project in `src/ExoSol`.
+
+## Building and Running
+
+The .NET 10 SDK is required. From the repository root, run:
+
+```powershell
+dotnet build src/ExoSol.sln
+dotnet run --project src/ExoSol/ExoSol.csproj
+```
 
 ## Target Platforms
 
