@@ -29,6 +29,21 @@ assume a dependency manager, directory layout, or additional framework until
 the repository establishes one. Document foundational choices here and in the
 README as appropriate.
 
+## Target Platforms
+
+- Treat Windows as the primary target platform and the first platform for
+  development, validation, and release decisions.
+- Keep Linux and macOS portability feasible where it does not impose
+  disproportionate cost, but do not claim support until those targets are
+  committed and tested.
+- Treat Xbox support as a stretch goal rather than a current requirement.
+- Other consoles are unlikely targets but should not be made impossible without
+  a clear technical or design reason.
+- Do not design for or claim support for current mobile platforms. The game is
+  not considered suitable for them.
+- Keep platform-specific behavior behind Platform Module boundaries and avoid
+  unnecessary Windows-only assumptions in engine-independent code.
+
 ## Design Principles
 
 - Preserve the connection between planetary and space play; avoid treating
@@ -142,12 +157,24 @@ once the toolchain has been selected.
   and fit the architecture.
 - Do not commit generated build output, caches, or local configuration unless
   the repository explicitly requires it.
-- Do not create commits, branches, tags, or pull requests unless explicitly
-  requested.
+- Do not create commits, branches, tags, pull requests, or pushes unless
+  explicitly requested.
 - Do not modify licensing, attribution, trademark, or source-availability
   language without explicit direction.
 - Never use destructive version-control operations unless explicitly
   authorized.
+
+## Branch and Contribution Workflow
+
+- Team members work directly on `main` and push team changes directly to
+  `main`.
+- Do not create a feature branch or pull request for team work unless
+  explicitly instructed to depart from the current workflow.
+- External contributions are not accepted at this time.
+- If external contributions are accepted in the future, they must be submitted
+  and reviewed through pull requests rather than pushed directly to `main`.
+- The direct-to-`main` policy does not authorize an agent to commit or push
+  without an explicit request.
 
 ## Commit Messages
 

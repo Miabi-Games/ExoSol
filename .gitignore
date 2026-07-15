@@ -1,0 +1,42 @@
+# .NET build output
+[Bb]in/
+[Oo]bj/
+artifacts/
+
+# Test and coverage output
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# IDE and editor state
+.vs/
+.vscode/
+.idea/
+.fleet/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific build configuration
+*.csproj.user
+*.fsproj.user
+*.vcxproj.user
+CMakeUserPresets.json
+
+# Native build output
+[Bb]uild/
+cmake-build-*/
+[Oo]ut/
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*~

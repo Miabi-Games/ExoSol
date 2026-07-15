@@ -1,0 +1,19 @@
+# Normalize line endings for all files Git identifies as text.
+* text=auto eol=lf
+
+# Treat common game assets as binary.
+*.bmp binary
+*.gif binary
+*.ico binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.tga binary
+*.webp binary
+*.flac binary
+*.mp3 binary
+*.ogg binary
+*.wav binary
+*.glb binary
+*.ttf binary
+*.otf binary

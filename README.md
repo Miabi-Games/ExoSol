@@ -90,6 +90,18 @@ C++ may be introduced only if it becomes necessary for native integration.
 The build process and detailed project structure will be documented as they
 are established.
 
+## Target Platforms
+
+Windows is the primary target platform for ExoSol.
+
+Linux and macOS releases are under consideration but are not currently
+committed targets. Xbox support is a stretch goal. Other console platforms are
+unlikely, though not ruled out entirely.
+
+ExoSol is not planned for current mobile platforms. Its intended simulation,
+interface, performance profile, and scope are not considered suitable for
+current mobile devices.
+
 ## Repository Goals
 
 This repository is both a game project and a public development showcase. It
@@ -110,6 +122,15 @@ Public development of ExoSol is experimental and should not be understood as a
 commitment to publish the source code of every future version. Future
 development, releases, or portions of the project may use a different
 source-availability or distribution model.
+
+## Contributions
+
+ExoSol is not accepting external contributions at this time. Please do not
+open pull requests.
+
+The project team currently works directly on the `main` branch. If external
+contributions are accepted in the future, they will be reviewed and integrated
+through pull requests.
 
 ## License
 
