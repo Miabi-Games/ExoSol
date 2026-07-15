@@ -173,8 +173,9 @@ once the toolchain has been selected.
 - External contributions are not accepted at this time.
 - If external contributions are accepted in the future, they must be submitted
   and reviewed through pull requests rather than pushed directly to `main`.
-- The direct-to-`main` policy does not authorize an agent to commit or push
-  without an explicit request.
+- Human team members are expected to push their work to `main`. AI agents must
+  not commit or push without an explicit request and must never push merely
+  because a commit is ready.
 
 ## Commit Messages
 
